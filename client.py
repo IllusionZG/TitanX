@@ -1273,7 +1273,7 @@ antijs = {}
 try:
     client.login(settings["token"], appName=f"IOSIPAD\t10.5.1\tiPad OS\t13.3.1")
 except:
-    client.login(appName=f"IOSIPAD\t10.5.1\tiPad OS\t13.3.1", showQr=True)
+    client.login(appName=f"IOSIPAD\t10.4.2\tiPad OS\t13.3.1", showQr=True)
 if settings["token"] != client.authToken:
     settings["token"] = client.authToken
 oepoll = OEPoll(client)
